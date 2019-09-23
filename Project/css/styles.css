@@ -11,7 +11,8 @@ body {
   margin: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Caveat', cursive;
   font-weight: 400;
 }
@@ -37,17 +38,28 @@ a:hover {
   max-width: 950px;
   margin: 0 auto;
   padding: 50px;
+  overflow: auto;
 }
 
 /* Header and Footer */
-header, footer {
+header,
+footer {
   background: #2B2D42;
   color: #8D99AE;
 }
 
 /* Header */
-header h1, header h2 {
+header h1,
+header h2 {
   color: #8D99AE;
+  margin: 0;
+}
+
+.profile-img {
+  width: 300px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
 }
 
 /* Footer */
